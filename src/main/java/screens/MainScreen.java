@@ -18,11 +18,11 @@ public class MainScreen {
     }
 
   @AndroidFindBy (id = BRET)
-    private AndroidElement htlp;
+    private AndroidElement androidElement;
 
 
 public MainScreen click(){
-    htlp.click();
+    androidElement.click();
     try{
         Thread.sleep(5000);
     } catch (InterruptedException e) {
